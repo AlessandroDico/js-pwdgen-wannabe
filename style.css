@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* fine regole generiche */
+
+/* ______HEADER______ */
+header {
+    background-color: #002649;
+}
+
+.titols {
+    padding: 20px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.titols > h1 {
+    font-size: 50px;
+}
+
+.titols > h2 > span {
+    font-size: 10px;
+}
+
+/* _____PRIMA SEZIONE: DESCRIPTION______ */
+
+#section-description {
+    background-color: #0084ff;
+}
+
+.description-paragraph {
+    padding: 50px 20px;
+
+}
+
+.description-paragraph > P {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 50px;
+
+}
+
+/* _____SECONDA SEZIONE: ADVICE______ */
+
+#section-advice {
+    background-color: #002649;
+}
+
+.advice-how-to-use {
+    padding: 50px 20px;
+}
+
+.advice-how-to-use > p {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.advice-how-to-use > .advice-icons {
+    text-align: center;
+}
+
+.advice-how-to-use > .advice-icons > i {
+    color: #fff;
+    font-size: 80px;
+    margin: 20px;
+}
+
+/* _____TERZA SEZIONE: REVELATION______ */
+
+#section-revelation {
+    background-color: #077d0d;
+}
+
+.password-paragraph {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.password-paragraph > p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.password-paragraph > p > span {
+    display: block;
+    font-size: 40px;
+    color: #fff;
+}
+
+/* _____FOOTER______ */
+
+footer {
+    background-color: #002649;
+}
+
+.footer-paragraph > p {
+    padding: 40px 20px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.8px;
+}

@@ -2,20 +2,72 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>JS Password generator</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-            <h1>Lorem ipsum dolor sit amet, consectetur.</h1>
-            <h2>Lorem ipsum dolor sit amet.</h2>
+            <div class="container">
+                <div class="titols">
+                    <h1>Scopri la tua password ideale</h1>
+                    <h2><span>Poco</span> sicura ed affidabile</h2>
+                </div>
+            </div>
         </header>
         <main>
-            <p>La tua sicurissa password è:
-                <span id="password_sicurissima"></span>
-            </p>
+            <section id="section-description">
+                <div class="container">
+                    <div class="description-paragraph">
+                        <p>Generare una password non è mai stato cosi facile.</p>
+                        <p>
+                            Puoi dire addio alle giornate passate a pensare a password complesse e di difficile memoriazazione!
+                        </p>
+                        <p>
+                            Il nostro sistema di password generator è basato su un complesso algoritmo nord europeo che crea una parola chiave banale capace di spiazzare ogni malintenzionato!
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="section-advice">
+                <div class="container">
+                    <div class="advice-how-to-use">
+                        <p>
+                            Utilizza la tua super password per tutti i tuoi account più importanti per un login sempre più consapevole
+                        </p>
+                        <div class="advice-icons">
+                            <i class="fab fa-paypal"></i>
+                            <i class="fab fa-cc-visa"></i>
+                            <i class="fab fa-cc-mastercard"></i>
+                            <i class="fab fa-bitcoin"></i>
+                            <i class="fab fa-twitter-square"></i>
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-tiktok"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="section-revelation">
+                <div class="container">
+                    <div class="password-paragraph">
+                        <p>La tua sicurissima password è :
+                            <span id="password_very_sure"></span>
+                        </p>
+                    </div>
+                </div>
+            </section>
         </main>
-
+        <footer>
+            <div class="container">
+                <div class="footer-paragraph">
+                    <p>
+                        Password ideale S.r.l di esonera da qualunque responsabilità.
+                    </p>
+                </div>
+            </div>
+        </footer>
 
 
         <script src="main.js" charset="utf-8"></script>
