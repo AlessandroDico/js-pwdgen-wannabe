@@ -16,4 +16,4 @@ var password_perfetta = nome_utente + cognome_utente + colore_preferito + "20";
 
 console.log(password_perfetta);
 
-document.getElementById('password_very_sure').innerHTML =  "<span class='red'>" + password_perfetta + "</span>";
+document.getElementById('password_very_sure').innerHTML = password_perfetta;
