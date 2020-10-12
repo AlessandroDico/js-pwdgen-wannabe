@@ -102,6 +102,7 @@ header {
     display: block;
     font-size: 40px;
     color: #fff;
+    word-break: break-all;
 }
 
 /* _____FOOTER______ */
