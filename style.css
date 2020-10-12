@@ -24,6 +24,7 @@ header {
     padding: 20px 20px;
     color: #fff;
     text-align: center;
+    letter-spacing: 1.4px;
 }
 
 .titols > h1 {
@@ -42,7 +43,6 @@ header {
 
 .description-paragraph {
     padding: 50px 20px;
-
 }
 
 .description-paragraph > P {
@@ -50,7 +50,7 @@ header {
     font-size: 25px;
     font-weight: bold;
     line-height: 50px;
-
+    letter-spacing: 1.4px;
 }
 
 /* _____SECONDA SEZIONE: ADVICE______ */
@@ -61,6 +61,7 @@ header {
 
 .advice-how-to-use {
     padding: 50px 20px;
+    text-align: center;
 }
 
 .advice-how-to-use > p {
@@ -68,6 +69,7 @@ header {
     font-size: 25px;
     font-weight: bold;
     line-height: 50px;
+    letter-spacing: 1.4px;
 }
 
 .advice-how-to-use > .advice-icons {
